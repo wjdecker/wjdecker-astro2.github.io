@@ -1,7 +1,5 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
+import BlogPost from '../layouts/BlogPost.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
@@ -47,3 +45,10 @@ class A,B,C,D,E,F internal-link;
 ```
 
 End Mermaid Diagram
+
+Start equation
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
+end $\sqrt{2}$ equation
