@@ -5,7 +5,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 Hello!
 
-Start Mermaid Info
+Start Mermaid Info Day 2
 
 ```mermaid
   info
@@ -47,6 +47,7 @@ class A,B,C,D,E,F internal-link;
 End Mermaid Diagram
 
 Start equation
+
 $$
 L = \frac{1}{2} \rho v^2 S C_L
 $$

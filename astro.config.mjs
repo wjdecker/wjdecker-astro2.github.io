@@ -22,8 +22,15 @@ export default defineConfig({
                 rehypeKatex,
                 {
                     // Katex plugin options
+                    output: 'mathml'
                 }
             ]
         ]
-    }
+    },
+stylesheets: [
+    {
+      href: 'src/styles/katex.min.css',
+      type: 'text/css',
+    },
+  ],
 });
